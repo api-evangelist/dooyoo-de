@@ -1,7 +1,24 @@
 aid: dooyoo-de
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dooyoo-de.png
 name: Dooyoo De
-description: Dooyoo De is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dooyoo was a German consumer product-review and price-comparison platform built on
+  user-generated reviews, best known for its "dooyooMiles" rewards program that paid users for writing
+  reviews. It was acquired by the French shopping-guide publisher LeGuide.com in 2008, and the LeGuide
+  group (Ciao, Dooyoo, and others) was in turn acquired by Kelkoo in 2016 to form Kelkoo Group. The
+  dooyoo.de domain no longer operates as an independent brand and now 301-redirects to
+  kelkoogroup.com; there is no active developer portal, public API, or documentation surface. This
+  profile is retained as a defunct/absorbed portfolio lead with no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/dooyoo-de/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,29 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-successor: kelkoo-group
+x-enrichment-note: 'dooyoo.de 301-redirects to kelkoogroup.com; no developer surface (all /.well-known/*
+  probes 301, no OpenAPI/docs/portal). No enrichment artifacts derivable.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Price Comparison
+- Product Reviews
+- E-Commerce
+- Consumer
+- Defunct
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
