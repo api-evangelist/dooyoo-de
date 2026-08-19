@@ -30,7 +30,7 @@ x-status: defunct
 x-successor: kelkoo-group
 x-enrichment-note: 'dooyoo.de 301-redirects to kelkoogroup.com; no developer surface (all /.well-known/*
   probes 301, no OpenAPI/docs/portal). No enrichment artifacts derivable.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
